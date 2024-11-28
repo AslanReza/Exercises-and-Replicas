@@ -68,7 +68,7 @@ To explore these projects locally:
 
 ## License
 
-This repository is licensed under the MIT License. See the LICENSE file for more information.
+This repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
 
 ## Project Goals
 
@@ -88,10 +88,11 @@ Here are some screenshots of the projects:
 ## Badges
 
 ![MIT License](https://img.shields.io/badge/license-MIT-green)
-![Build Status](https://img.shields.io/badge/build-passing-brightgreen) 
+![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
 ![Test Coverage](https://img.shields.io/badge/coverage-100%25-brightgreen)
 
 ## FAQ
+
 Q: Can I use the code for my own projects?
 A: Yes, you can use and modify the code under the MIT License, but please provide appropriate attribution.
 
@@ -101,10 +102,12 @@ A: Yes, more exercises and replicas will be added as I continue learning and imp
 ## Contact Info
 
 You can reach me via:
+
 - **Email**: aslanreza77@gmail.com
 - **GitHub**: [@AslanReza](https://github.com/AslanReza)
 
 ## Acknowledgments
+
 CoinCap API for providing real-time cryptocurrency data.
 Typeform for inspiring the design.
 Stack Overflow and MDN Web Docs for providing useful references and solutions.
