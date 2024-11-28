@@ -36,7 +36,7 @@ The repository is intended for developers who want to practice building real-wor
   - Interactive, responsive design for mobile and desktop devices.
   - Search functionality to filter through cryptocurrencies.
 - **Technologies**: HTML, CSS, JavaScript, CoinCap API
-- **Preview**:[CoinCap Demo](https://coin-cap-sample.vercel.app//).
+- **Preview**: [[CoinCap Demo](https://coin-cap-sample.vercel.app//)].
 
 ### Typeform Replica
 
