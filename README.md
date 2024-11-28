@@ -36,7 +36,7 @@ The repository is intended for developers who want to practice building real-wor
   - Interactive, responsive design for mobile and desktop devices.
   - Search functionality to filter through cryptocurrencies.
 - **Technologies**: HTML, CSS, JavaScript, CoinCap API
-- **Preview**:[Screenshot or link to demo (if available)](https://coin-cap-sample.vercel.app//).
+- **Preview**:[CoinCap Demo](https://coin-cap-sample.vercel.app//).
 
 ### Typeform Replica
 
@@ -46,7 +46,7 @@ The repository is intended for developers who want to practice building real-wor
   - Modern CSS styling techniques such as Flexbox and Grid.
   - Fully responsive design.
 - **Technologies**: HTML, CSS
-- **Preview**: [Screenshot or link to demo (if available)](https://typeform-sample.netlify.app/).
+- **Preview**: [[Typeform Demo](https://typeform-sample.netlify.app/)].
 
 ## Technologies Used
 
