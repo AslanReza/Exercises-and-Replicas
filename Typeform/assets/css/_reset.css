@@ -1,0 +1,34 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  /* letter-spacing: 2px; */
+}
+a {
+  text-decoration: none;
+  font-family: "apercu-r";
+  font-weight: lighter;
+}
+ul,
+li {
+  list-style: none;
+  font-family: "apercu-b";
+}
+p,
+h3,
+h4 {
+  font-family: "apercu-l";
+  /* font-weight: lighter; */
+}
+span {
+  font-family: "apercu-b";
+}
+strong,
+h1,
+h2 {
+  font-family: "apercu-l";
+  /* font-weight: bold; */
+
+}
