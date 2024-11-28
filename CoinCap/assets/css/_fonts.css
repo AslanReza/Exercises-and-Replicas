@@ -1,0 +1,33 @@
+@font-face {
+  font-family: "Lato_Regular";
+  src: url(../fonts/Lato/Lato-Regular.woff) format("woff"),
+    url(../fonts/Lato/Lato-Regular.woff2) format("woff2");
+}
+@font-face {
+  font-family: "Lato_Light";
+  src: url(../fonts/Lato/Lato-Light.woff) format("woff"),
+    url(../fonts/Lato/Lato-Light.woff2) format("woff2");
+}
+@font-face {
+  font-family: "Lato_Bold";
+  src: url(../fonts/Lato/Lato-Bold.woff) format("woff"),
+    url(../fonts/Lato/Lato-Bold.woff2) format("woff2");
+}
+@font-face {
+  font-family: "Lato_Thin";
+  src: url(../fonts/Lato/Lato-Thin.woff) format("woff"),
+    url(../fonts/Lato/Lato-Thin.woff2) format("woff2");
+}
+@font-face {
+  font-family: "Font Awesome";
+  src: url("../webfonts/fa-brands-400.woff2") format("woff2"),
+    url("../webfonts/fa-light-300.woff2") format("woff2"),
+    url("../webfonts/fa-regular-400.woff2") format("woff2"),
+    url("../webfonts/fa-solid-900.woff2") format("woff2");
+}
+* {
+  font-family: "Lato_Regular";
+}
+.top_menu_container {
+  font-family: "Lato_Regular";
+}

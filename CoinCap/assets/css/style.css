@@ -1,0 +1,267 @@
+/* ATTACHED FILES */
+@import url(./all.min.css);
+@import url(./_reset.css);
+@import url(./_fonts.css);
+@import url(./_contactUs.css);
+@import url(./_exchanges.css);
+@import url(./_methodology.css);
+/* TOP MENU STYLES */
+body {
+  background-color: #eceff1;
+}
+.container-fluid {
+  width: 100%;
+}
+.container {
+  max-width: 1028px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.top_menu_container {
+  background: linear-gradient(
+    97.53deg,
+    rgb(246, 135, 179) 5.6%,
+    rgb(123, 97, 255) 59.16%,
+    rgb(22, 209, 161) 119.34%
+  );
+  text-align: center;
+}
+.mark_white_svg {
+  width: 18px;
+  vertical-align: middle;
+  height: 26px;
+}
+.right_arrow_svg {
+  vertical-align: middle;
+  width: 14px;
+}
+.top_menu_container a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+.top_menu_container a span {
+  padding: 8px;
+  color: #fff;
+}
+.navbar {
+  background-color: #fff;
+}
+.desk_nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.left_side ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+.left_side ul li {
+  padding: 16px 12px;
+}
+.left_side ul li:hover {
+  background-color: #f7f7f7;
+}
+.menu_logo {
+  width: 84px;
+  vertical-align: middle;
+  padding: 16px 6px;
+}
+.menu_logo:hover {
+  background-color: #f7f7f7;
+}
+.gear_box,
+.search_box {
+  color: black;
+  font-size: 16px !important;
+}
+.right_side ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+.right_side i {
+  padding: 0px 12px;
+  font-size: 12px;
+}
+.right_side {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.right_side ul li {
+  padding: 0px 12px;
+}
+/* ITEMS TABLE STYLES */
+.coins_area {
+  position: relative;
+}
+.wrap_back {
+  background: linear-gradient(to right, rgb(63, 81, 181), rgb(241, 100, 246))
+    rgb(255, 255, 255);
+  height: 232px;
+  position: absolute;
+  left: 0px;
+  z-index: -1001;
+  width: 100%;
+}
+.row_details {
+  text-align: center;
+  z-index: 1001;
+  margin-bottom: 12px;
+}
+.row_details ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.row_details ul li {
+  padding: 16px 36px;
+  font-family: "Lato_Bold";
+  color: white;
+}
+.coins_table {
+  background-color: rgb(250, 250, 250);
+  border-radius: 8px;
+  box-shadow: 0px 0px 8px 0px #565656;
+}
+.table_row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px 8px;
+  border-bottom: 1px solid rgb(188, 188, 188);
+}
+.row_items {
+  padding: 4px 8px;
+  font-size: 14px;
+}
+.name_row {
+  flex: 3;
+}
+.rank_row {
+  flex: 1;
+}
+.volume_row {
+  flex: 1;
+}
+.price_row {
+  flex: 1;
+}
+.marketcap_row {
+  flex: 1;
+}
+.VWAP_row {
+  flex: 1;
+}
+.supply_row {
+  flex: 1;
+}
+.change_row {
+  flex: 1;
+}
+.coin_name {
+  flex: 3 !important;
+  display: flex;
+  align-items: center;
+}
+.coin_name_sec {
+  font-size: 16px;
+}
+.coin_symbol_sec {
+  font-size: 12px;
+  color: #585858;
+}
+.coin_img {
+  margin-right: 4px;
+}
+.coin_cells {
+  flex: 1;
+  padding: 4px 8px;
+  text-align: left;
+  font-size: 14px;
+}
+.coin_change {
+  text-align: center;
+}
+.red_cell {
+  color: red !important;
+}
+.green_cell {
+  color: green;
+}
+.view_btn {
+  padding: 10px 28px;
+  cursor: pointer;
+  background: #c33764; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #5869ff,
+    #c33764
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #6776ff, #c33764);
+  color: #fff;
+  font-family: "Lato_Bold";
+  border-radius: 14px;
+  transition: all ease-in 0.3s;
+}
+.view_more {
+  text-align: center;
+  padding-top: 42px;
+  padding-bottom: 42px;
+}
+/* FOOTER STYLES */
+.footer_section {
+  background: linear-gradient(
+    97.53deg,
+    rgb(164, 94, 255) 5.6%,
+    rgb(123, 97, 255) 59.16%,
+    rgb(22, 209, 161) 119.34%
+  );
+  padding: 0px 16px;
+}
+.footer_wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 38px 0px;
+  color: #fff;
+}
+.footer_wrapper h4 {
+  padding-bottom: 20px;
+  font-size: 16px;
+}
+.footer_wrapper img {
+  border-radius: 8px;
+  padding-bottom: 4px;
+  filter: opacity(0.5);
+}
+.footer_wrapper i {
+  color: #bfbfbf;
+  padding: 0px 2px;
+  font-size: 24px;
+}
+.footer_wrapper i:hover {
+  color: #fff;
+}
+.footer_wrapper img:hover {
+  filter: opacity(1);
+}
+.footer_wrapper a {
+  color: #bfbfbf;
+  font-size: 14px;
+}
+.footer_wrapper p {
+  color: #bfbfbf;
+  font-size: 14px;
+}
+.footer_wrapper a:hover {
+  color: #fff;
+}
+.footer_wrapper .h4_middle {
+  padding-top: 20px;
+}

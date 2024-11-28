@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="icon" type="image/x-icon" href="../images/svg/Favicon.svg" />
+    <script src="//cdnjs.cloudflare.com/ajax/libs/numeral.js/2.0.6/numeral.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exchanges | CoinCap.io</title>
+  </head>
+  <body>
+    <!-- TOP MENU  -->
+    <section class="top_menu_container container-fluid">
+      <a href="#">
+        <img
+          class="mark_white_svg"
+          src="../images/svg/mark-white.svg"
+          alt="top_menu_svg"
+        />
+        <span
+          >Buy, sell, & swap your favorite assets. No KYC. No added fees.
+          Decentralized.
+        </span>
+        <img
+          class="right_arrow_svg"
+          src="../images/svg/right-arrow.svg"
+          alt="right_arrow_svg"
+        />
+      </a>
+    </section>
+    <!-- MENU  MAIN SECTION-->
+    <nav class="container-fluid navbar">
+      <section class="desk_nav container">
+        <div class="left_side">
+          <ul>
+            <li><a href="../../index.html">Coins</a></li>
+            <li><a href="./Exchanges.html">Exchanges</a></li>
+            <li><a href="#" data-modal-target="#modal">Contact us</a></li>
+            <div class="modal" id="modal">
+              <div class="modal_header">
+                <p class="title_modal">Contact CoinCap</p>
+                <button data-close-button class="close_button">&times;</button>
+              </div>
+              <p class="modal_header_p">
+                Have questions, comments, or suggestions? Contact us here and
+                we’ll respond back as soon as we can!
+              </p>
+
+              <div class="modal_body">
+                <label for="name"
+                  >Your Name
+                  <input
+                    type="text"
+                    name="name"
+                    id="name"
+                    placeholder="Your Name"
+                  />
+                </label>
+                <label for="email"
+                  >Email Address
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="Email Address"
+                  />
+                </label>
+                <label for="message"
+                  >Message
+                  <textarea
+                    name="message"
+                    id="message"
+                    rows="4"
+                    placeholder="Message"
+                  ></textarea>
+                </label>
+                <div class="submit_modal">
+                  <a href="#" class="view_btn">Submit</a>
+                </div>
+              </div>
+            </div>
+          </ul>
+        </div>
+        <div class="middle">
+          <a href="../../index.html">
+            <img
+            class="menu_logo"
+            src="../images/svg/menu-logo.svg"
+            alt="menu-logo"
+          />
+          </a>
+        </div>
+        <div class="right_side">
+          <ul>
+            <li><span>USD</span><i class="fa-solid fa-chevron-down"></i></li>
+            <li>
+              <span>English</span><i class="fa-solid fa-chevron-down"></i>
+            </li>
+            <li>
+              <a href="#"><i class="fa-solid fa-search search_box"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-solid fa-gear gear_box"></i></a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </nav>
+    <!-- COINS AREA -->
+    <div class="container-fluid method_area">
+      <div class="wrap_back"></div>
+      <div class="list_method_wrap container-fluid">
+        <div class="list_method container">
+          <a href="#Breakdown">Market Breakdown</a>
+          <a href="#Methodology">Methodology</a>
+          <a href="#Outlier">Outlier Detection</a>
+          <a href="#Rank">CoinCap Rank</a>
+        </div>
+      </div>
+      <div class="p_head_method container">
+        <p>
+          Welcome to CoinCap, your reliable source for cryptocurrency market
+          data
+        </p>
+      </div>
+      <div class="method_one container-fluid">
+        <div class="method_one container">
+          <div class="left_method_one">
+            <img src="../images/other/laptop.png" alt="laptop" />
+          </div>
+          <div class="right_method_one">
+            CoinCap's goal is to give you the most real-time view of
+            cryptocurrency trading taking place around the world. Built to meet
+            the needs of cryptocurrency enthusiasts, CoinCap adapts to the
+            unique demands of cryptocurrency markets.
+          </div>
+        </div>
+        <div class="bot"></div>
+      </div>
+      <div class="method_two wrap_2 container-fluid">
+        <p id="Breakdown">Crypto Market Vs. Traditional Market</p>
+        <div class="method_two_compare">
+          <div class="left_side_compare">
+            <p>Cryptocurrency Market</p>
+            <p>Constant activity, no open or close of trading</p>
+            <p>Assets are sold across many exchanges</p>
+            <p>
+              Digital assets can be purchased with a variety of methods,
+              including fiat currency and cryptocurrency
+            </p>
+            <p>Less standardization on how exchanges operate</p>
+          </div>
+          <div class="right_side_compare">
+            <p>Traditional Market</p>
+            <p>
+              Trading floor opens and closes; not available on nights and
+              weekends
+            </p>
+            <p>Commodities only available to purchase from select exchanges</p>
+            <p>Purchasing options limited to fiat</p>
+            <p>Exchange operations are highly regulated with many standards</p>
+          </div>
+        </div>
+        <div class="method_two_p_1">
+          <p>
+            By aggregating exchange data from around the world, we provide fast
+            calculations with controls to detect and remove outliers. This
+            ensures that you're always seeing the prices that best represent the
+            global market 'as-is.'
+          </p>
+        </div>
+        <div class="method_two_p_2">
+          <p>
+            Continue reading to learn more about how price is calculated, how
+            outliers are detected, and other mechanics that contribute to data
+            represented on CoinCap.
+          </p>
+        </div>
+      </div>
+      <div id="Methodology" class="method_three container-fluid">
+        <div  class="sides_three container">
+          <div class="left_side_three">
+            <p class="p_left_three">CoinCap Pricing Methodology</p>
+            <p class="p_left_three_1">
+              To calculate price, CoinCap reviews the data from markets where
+              that asset is either the base or quote in a trade. Any time a
+              digital asset is bought or sold, it contributes to the CoinCap
+              price evaluation.
+            </p>
+            <p class="p_left_three_1">
+              Our system evaluates every unit equally. The amount of volume
+              handled by an exchange weighs on the exchange's level of
+              contribution to the market-wide price.
+            </p>
+            <p class="p_left_three_1">
+              For example, if an exchange transacts 2,000 units of a coin in a
+              day and another exchange transacts 1,000 units of that coin, the
+              first exchange will have twice the influence on the global price
+              as the other exchange.
+            </p>
+          </div>
+          <div class="right_side_three">
+            <img src="../images/other/methodology.png" alt="methodology" />
+          </div>
+        </div>
+        <div class="global_market_three container">
+          <div class="glob">
+            <div class="global_left">
+              <p class="global_p_top">SUM (Price x Volume on exchange)</p>
+              <p class="global_p_bot">Total volume of digital asset traded</p>
+            </div>
+            <div class="global_mid">=</div>
+            <div class="global_right">
+              <p class="p_pad">GLOBAL</p>
+              <p class="p_pad">MARKET</p>
+              <p class="p_pad">PRICE</p>
+            </div>
+          </div>
+        </div>
+        <div class="p_three_sec container">
+          <div class="p_sec_1 p_sec">
+            The pricing conversation often leads to discussions on volume and
+            whether or not some exchange’s claimed volume can be verified. The
+            CoinCap team is aware and monitoring these conversations, but to
+            date, no action has been taken to adjust influence of exchanges.
+            Outlier detection prevents any single exchange from moving the
+            global price in a manner that is inconsistent with the market.
+          </div>
+          <div class="p_sec_2 p_sec">
+            As mentioned above, CoinCap pricing is an aggregate of data from
+            exchanges around the world. CoinCap recognizes that it does not
+            currently collect data from all sources of cryptocurrency trading.
+            In order to add more exchanges to CoinCap, our development team must
+            be able to work with that exchange’s API to properly gather data.
+            CoinCap’s team of developers will continue to incorporate more
+            exchanges into our pricing model.
+          </div>
+          <div class="p_sec_3 p_sec">
+            To request exchanges to be added, please visit our
+            <a class="p_mid" href="https://coincap.zendesk.com/hc/en-us"
+              >Help Desk</a
+            >
+            and submit a request
+            <a class="p_mid" href="https://coincap.zendesk.com/hc/en-us">
+              here</a
+            >.
+          </div>
+        </div>
+      </div>
+      <div id="Outlier" class="method_four container-fluid">
+        <div class="four_sides container">
+          <div class="left_side_three left_four">
+            <p class="p_left_three">CoinCap Outlier Detection</p>
+            <p class="p_left_three_1">
+              CoinCap Outlier Detection There are times when CoinCap will
+              receive data that can immediately be identified as flawed or
+              outside the range of acceptance. To protect the integrity of our
+              data, we identify flawed data and do not allow it to contribute to
+              CoinCap’s calculations. The following are the security measures
+              put in place to protect the integrity of our data:
+            </p>
+          </div>
+          <div class="right_side_three right_four">
+            <img src="../images/other/detection.png" alt="detection" />
+          </div>
+        </div>
+        <div class="p_four_section container">
+          <div class="sec_four_div">
+            <p class="sec_four_title">Price Outlier Detection</p>
+            <p class="sec_four_p">
+              As CoinCap receives trade price data from exchanges, our system
+              compares the exchange's price to the real-time global price of
+              that asset. If the price is more than 10 percent outside (above or
+              below) the current global price, the data is flagged as an
+              outlier. This does not prevent the price of an asset from rapidly
+              gaining or losing value. Prices will climb and fall incrementally
+              on markets as fulfilled orders move prices. CoinCap accepts
+              incremental price movements. The 10 percent outlier detection
+              prohibits a single exchange from falsely reporting a price far
+              above or below the real-time market. These outlier prices will
+              appear on the website with notation, but will not be used in the
+              global price calculation on the digital asset.
+            </p>
+          </div>
+          <div class="sec_four_div_2">
+            <p class="sec_four_title">Aged Data Handling</p>
+            <p class="sec_four_p">
+              To have real-time information available, our system is constantly
+              requesting the most up-to-date trade data from exchanges.
+              Exchanges respond with data that is timestamped to show recency.
+              At times, an exchange will send trade data that does not have a
+              recent timestamp. Our system looks at the timestamp of every
+              response to check if it is recent. Any trade data received with a
+              timestamp more than four hours old will be identified as aged
+              data. This aged data will appear on the website with notation, but
+              will not be used in the global price calculation of the asset.
+            </p>
+          </div>
+          <div class="sec_four_div_3">
+            <p class="sec_four_title">New Markets</p>
+            <p class="sec_four_p">
+              All new exchanges or new markets on existing exchanges are
+              inspected and verified as accurate before the data is incorporated
+              into CoinCap’s pricing. This is done to ensure that all markets
+              represented on CoinCap truly exist and users can confidently take
+              action on the accurate and verified information provided by our
+              site.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div id="Rank" class="method_five container-fluid">
+        <div class="method_sides_five container">
+          <div class="left_five">
+            <p class="five_left_p">CoinCap Rank</p>
+            <p>
+              To identify the top digital assets, CoinCap has determined a
+              ranking system based on three factors: Daily Trading Volume,
+              Availability, and Market Cap.
+            </p>
+            <ul>
+              <li>
+                Daily Trading Volume represents a measure called liquidity, or
+                the extent to which the asset can be bought or sold without much
+                risk of moving the price. Assets with high liquidity are easier
+                to buy and sell in the marketplace, therefore we believe daily
+                trading volume must contribute to rank.
+              </li>
+              <li>
+                Asset Availability relates to how many exchanges trade this
+                asset. When multiple exchanges offer a digital asset, it serves
+                as a reference point for price, which helps ensure that the data
+                you are seeing is valid. This prevents a single exchange from
+                reporting a price that is not an accurate representation of the
+                market.
+              </li>
+              <li>
+                Market Cap is the price multiplied by supply of an asset. This
+                metric helps in understanding the total value if all available
+                assets are purchased.
+              </li>
+            </ul>
+          </div>
+          <div class="right_five">
+            <img src="../images/other/CCRank.png" alt="CCrank" />
+          </div>
+        </div>
+        <div class="method_sides_five container">
+          <div class="left_five_2">
+            <img src="../images/other/teirs.png" alt="teirs" />
+          </div>
+          <div class="right_five_2">
+            <ul>
+              <li>
+                Daily Trading Volume represents a measure called liquidity, or
+                the extent to which the asset can be bought or sold without much
+                risk of moving the price. Assets with high liquidity are easier
+                to buy and sell in the marketplace, therefore we believe daily
+                trading volume must contribute to rank.
+              </li>
+              <li>
+                Asset Availability relates to how many exchanges trade this
+                asset. When multiple exchanges offer a digital asset, it serves
+                as a reference point for price, which helps ensure that the data
+                you are seeing is valid. This prevents a single exchange from
+                reporting a price that is not an accurate representation of the
+                market.
+              </li>
+              <li>
+                Market Cap is the price multiplied by supply of an asset. This
+                metric helps in understanding the total value if all available
+                assets are purchased.
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="container last_five">
+          <p class="last_five_p">Market Capitialization</p>
+          <br />
+          <p class="last_five_p_1">
+            CoinCap’s Market Cap statistic is by definition a Free-Float Market
+            Capitalization (price multiplied by supply, where the supply is the
+            total number of assets readily available in the market). This
+            statistic differs from standard market capitalization where all
+            assets are considered, even if these assets are distributed in a way
+            that a portion are inaccessible to buyers (held by founders, created
+            but locked away until a particular date, etc).
+            <br />
+            <br />
+            Free-Float Methodology is a term that has been used to apply to
+            traditional markets. CoinCap believes this way of calculating market
+            cap does not meet the needs of every cryptocurrency available today.
+            Assets vary in how they are purchased, held, and used. Interesting
+            edge-cases appear where assets may be staked in a contract to
+            fulfill their purpose or “burnt” upon using. With the large number
+            of assets, regular entrance of new assets to the market, and variety
+            of uses of these assets, perhaps market capitalization is a flawed
+            metric used to compare cryptocurrencies.
+            <br />
+            <br />
+            At CoinCap, we often question whether or not traditional metrics
+            meet current needs for the industry. For this reason, market cap is
+            only one of three factors that contributes to CoinCap’s Rank.
+            Alternatives to market capitalization (free-float or otherwise) are
+            being explored by the CoinCap team.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- FOOTER SECTION -->
+    <footer class="container-fluid footer_section">
+      <div class="container footer_wrapper">
+        <div class="footer_item">
+          <h4>COINCAP.IO</h4>
+          <ul>
+            <li><a href="./Methodology.html">Methodology</a></li>
+            <li>
+              <a href="https://shapeshift.zendesk.com/hc/en-us/requests/new"
+                >Support</a
+              >
+            </li>
+            <li><a href="https://docs.coincap.io/">Our API</a></li>
+            <li>
+              <a
+                href="https://shapeshift.com/careers?_ga=2.176864038.2031361873.1726750185-1189730916.1726423087"
+                >Careers</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="footer_item">
+          <h4>LEGALS</h4>
+          <ul>
+            <li>
+              <a href="https://assets.coincap.io/documents/terms_of_service.pdf"
+                >Terms of Service</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://shapeshift.com/privacy?_ga=2.84662938.2031361873.1726750185-1189730916.1726423087"
+                >Privacy Policy</a
+              >
+            </li>
+          </ul>
+          <h4 class="h4_middle">DISCLAIMER</h4>
+          <p>
+            Neither ShapeShift AG nor <br />
+            CoinCap are in any way associated <br />
+            with CoinMarketCap, LLC or any <br />
+            of its goods and services.
+          </p>
+        </div>
+        <div class="footer_item">
+          <h4>FOLLOW US</h4>
+          <a href="https://twitter.com/CoinCap_io"
+            ><i class="fa-brands fa-twitter-square"></i
+          ></a>
+          <a href="https://www.facebook.com/watch/?v=365220420785166"
+            ><i class="fa-brands fa-facebook-square"></i
+          ></a>
+        </div>
+        <div class="footer_item">
+          <h4>COINCAP APP AVAILABLE ON</h4>
+          <ul>
+            <li>
+              <a
+                href="https://play.google.com/store/apps/details?id=io.coinCap.coinCap"
+                ><img src="../images/svg/google_play.svg" alt="google-play"
+              /></a>
+            </li>
+            <li>
+              <a
+                href="https://itunes.apple.com/us/app/coincap/id1074052280?mt=8&ign-mpt=uo%3D4"
+              >
+                <img src="../images/svg/apple_store.svg" alt="apple-store"
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <div id="overlay"></div>
+    <script src="../js/main.js"></script>
+    <script src="../js/contactUs.js"></script>
+  </body>
+</html>

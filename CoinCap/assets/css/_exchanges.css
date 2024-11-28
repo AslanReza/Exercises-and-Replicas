@@ -1,0 +1,119 @@
+/* ITEMS TABLE STYLES */
+.exchange_area {
+  position: relative;
+}
+.wrap_back {
+  background: linear-gradient(to right, rgb(63, 81, 181), rgb(241, 100, 246))
+    rgb(255, 255, 255);
+  height: 232px;
+  position: absolute;
+  left: 0px;
+  z-index: -1001;
+  width: 100%;
+}
+.exchange_row_details {
+  text-align: center;
+  z-index: 1001;
+  margin-bottom: 12px;
+}
+.exchange_row_details ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.exchange_row_details ul li {
+  padding: 16px 36px;
+  font-family: "Lato_Bold";
+  color: white;
+}
+.exchange_table {
+  background-color: rgb(250, 250, 250);
+  border-radius: 8px;
+  box-shadow: 0px 0px 8px 0px #565656;
+}
+.exchange_table_row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px 8px;
+  border-bottom: 1px solid rgb(188, 188, 188);
+}
+.row_items {
+  padding: 4px 8px;
+  font-size: 14px;
+}
+.name_row {
+  flex: 3 !important;
+}
+.rank_row {
+  flex: 1;
+  text-align: left;
+}
+.volume_row {
+  text-align: center;
+  flex: 1;
+}
+.total_row {
+  flex: 1;
+  text-align: center;
+  margin: auto;
+
+}
+.status_row {
+  flex: 0.5;
+}
+.trading_row {
+  flex: 1;
+  text-align: center;
+}
+.top_row {
+  flex: 2;
+  text-align: center;
+}
+.exchange_cells {
+  flex: 1;
+  padding: 4px 8px;
+  text-align: left;
+  font-size: 14px;
+}
+.socket.green {
+  width: 14px;
+  margin: auto;
+  height: 14px;
+  background-color: #18c683;
+  border-radius: 50%;
+}
+.socket.red {
+  width: 14px;
+  height: 14px;
+  background-color: #f44336;
+  border-radius: 50%;
+  margin: auto;
+}
+
+.pulse_green {
+  animation: pulse-animation_green 1s infinite;
+}
+
+@keyframes pulse-animation_green {
+  0% {
+    box-shadow: 0 0 0 0px rgba(0, 255, 38, 0.5);
+  }
+  100% {
+    box-shadow: 0 0 0 6px rgba(0, 0, 0, 0);
+  }
+}
+
+.pulse_red {
+  animation: pulse-animation_red 1s infinite;
+}
+
+@keyframes pulse-animation_red {
+  0% {
+    box-shadow: 0 0 0 0px rgba(255, 0, 0, 0.5);
+  }
+  100% {
+    box-shadow: 0 0 0 6px rgba(0, 0, 0, 0);
+  }
+}
